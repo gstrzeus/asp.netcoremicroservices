@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using Discount.Grpcs.Entities;
+using Discount.Grpc.Entities;
+using Discount.Grpc.Repositories;
 using Discount.Grpcs.Protos;
-using Discount.Grpcs.Repositories;
 using Grpc.Core;
 
-namespace Discount.Grpcs.Services
+namespace Discount.Grpc.Services
 {
     public class DiscountService : DiscountProtoService.DiscountProtoServiceBase
     {

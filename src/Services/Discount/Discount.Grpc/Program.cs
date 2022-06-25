@@ -1,7 +1,7 @@
-using Discount.Grpcs.Entities;
-using Discount.Grpcs.Extensions;
-using Discount.Grpcs.Repositories;
-using Discount.Grpcs.Services;
+using Discount.Grpc.Repositories;
+using Discount.Grpc.Entities;
+using Discount.Grpc.Extensions;
+using Discount.Grpc.Services;
 //using Discount.Grpcs.Services;
 
 var builder = WebApplication.CreateBuilder(args);

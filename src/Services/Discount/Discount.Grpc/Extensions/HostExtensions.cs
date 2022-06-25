@@ -1,6 +1,6 @@
 ﻿using Npgsql;
 
-namespace Discount.Grpcs.Extensions
+namespace Discount.Grpc.Extensions
 {
     public static class HostExtensions
     {
