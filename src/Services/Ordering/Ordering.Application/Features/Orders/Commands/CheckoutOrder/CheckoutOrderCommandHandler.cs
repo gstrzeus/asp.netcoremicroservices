@@ -37,7 +37,8 @@ namespace Ordering.Application.Features.Orders.Commands.CheckoutOrder
 
             //await SendMail(newOrder);
 
-            await Task.WhenAll(_repo.AddAsync(orderEnt), SendMail(orderEnt));
+            await _repo.AddAsync(orderEnt);
+            await SendMail(orderEnt);
 
             _logging.LogInformation($"Order {orderEnt.Id} is successfully created.");
 
